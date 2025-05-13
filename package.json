@@ -1,0 +1,20 @@
+{
+  "name": "cy_e2e_poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "v20.17.0"
+  },
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.7.2"
+  }
+}
